@@ -226,4 +226,3 @@ locale: "de-DE"
 search: true
 
 header:
-  nav_dropdown: true
