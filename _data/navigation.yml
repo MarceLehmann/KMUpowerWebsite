@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Showcase"
     url: /showcase/
+  - title: "Modern Components"
+    url: /modern-components/
   - title: "Advanced"
     url: /advanced-components/
   - title: "Business"
@@ -18,6 +20,16 @@ main:
     url: /faq/
   - title: "Blog"
     url: /blog/
+  - title: "Beiträge"
+    url: /posts/
+  - title: "Tags"
+    url: /tags/
+  - title: "Über uns"
+    url: /about/
+  - title: "Karriere"
+    url: /careers/
+  - title: "Partner"
+    url: /partners/
   - title: "Design Systems"
     children:
       - title: "Fluent Design 2"
@@ -34,6 +46,14 @@ main:
         url: /ant-design/
       - title: "Carbon Design"
         url: /carbon-design/
+  - title: "Rechtliches"
+    children:
+      - title: "Cookies"
+        url: /cookies/
+      - title: "Datenschutz"
+        url: /privacy/
+      - title: "AGB"
+        url: /terms/
   - title: "Contact"
     url: /contact/
 

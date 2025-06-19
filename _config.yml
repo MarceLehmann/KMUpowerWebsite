@@ -224,3 +224,6 @@ after_footer_scripts:
 # SEO
 locale: "de-DE"
 search: true
+
+header:
+  nav_dropdown: true
