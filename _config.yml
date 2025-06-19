@@ -9,33 +9,35 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "Professional Corporate Website Showcase"
+title: "KMUpower - Power Platform für Schweizer KMUs"
 title_separator: "|"
-subtitle: "Complete Jekyll Minimal Mistakes Demo"
-name: "Corporate Showcase"
-description: "A comprehensive demonstration of professional corporate website features using Jekyll Minimal Mistakes theme. Includes business components, accessibility features, PWA capabilities, and modern UI elements."
+subtitle: "Digitalisierung mit Mehrwert"
+name: "KMUpower"
+description: "KMU-Spezialist für Microsoft Power Platform im DACH-Raum. Power Apps, Power Automate und KI-Integration für kleine und mittelständische Unternehmen. Transparente Preise, pragmatische Lösungen."
 url: "https://marcelehmann.github.io" # Replace with your actual GitHub Pages URL
-baseurl: "/GitHubPagesSample" # the subpath of your site, e.g. "/blog"
-teaser: "/assets/images/teaser-default.svg"
-logo: "/assets/images/logo.svg"
-masthead_title: "Corporate Showcase"
+baseurl: "/KMUpowerWebsite" # the subpath of your site, e.g. "/blog"
+teaser: "/assets/images/kmupower-teaser.svg"
+logo: "/assets/images/kmupower-logo.svg"
+masthead_title: "KMUpower"
 breadcrumbs: true
 
 # SEO & Social
-locale: "en-US"
-repository: "username/jekyll-minimal-mistakes-showcase"
-og_image: "/assets/images/social-share.svg"
+locale: "de-CH"
+repository: "marcelehmann/KMUpowerWebsite"
+og_image: "/assets/images/kmupower-social-share.svg"
 twitter:
-  username: "corporateshowcase"
+  username: "kmupower"
 facebook:
-  username: "corporateshowcase"
+  username: "kmupower"
+linkedin:
+  username: "marcel-lehmann-kmupower"
 social:
   type: Organization
-  name: "Corporate Showcase"
+  name: "KMUpower"
   links:
-    - "https://twitter.com/corporateshowcase"
-    - "https://github.com/username/jekyll-minimal-mistakes-showcase"
-    - "https://linkedin.com/company/corporate-showcase"
+    - "https://linkedin.com/in/marcel-lehmann-kmupower"
+    - "https://github.com/marcelehmann/KMUpowerWebsite"
+    - "https://www.xing.com/profile/Marcel_Lehmann_KMUpower"
 
 # Analytics
 analytics:

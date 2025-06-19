@@ -1,23 +1,60 @@
 ---
-title: "Blog & News"
+title: "KMU Digitalisierung Blog"
 layout: posts
 permalink: /blog/
-author_profile: true
+author_profile: false
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_color: "#0072C6"
+  overlay_filter: "0.4"
   overlay_image: /assets/images/blog-header.svg
-  caption: "Latest News & Updates"
+  caption: "Praktisches Know-how für Ihre Digitalisierung"
   actions:
-    - label: "Subscribe to Newsletter"
-      url: "#newsletter"
+    - label: "Newsletter abonnieren"
+      url: "/newsletter-anmeldung/"
       class: "btn--primary"
-excerpt: "Stay up to date with our latest news, insights, and product updates."
+excerpt: "Praxisnahe Tipps, Erfolgsgeschichten und Trends rund um die Digitalisierung kleiner und mittelständischer Unternehmen."
 entries_layout: grid
 classes: wide
 ---
 
-<div class="blog-intro">
+## Praktisches Know-how für Ihre Digitalisierung
+
+Willkommen im **KMUpower Blog** – Ihrer Quelle für praxisnahe Tipps, Erfolgsgeschichten und Trends rund um die Digitalisierung kleiner und mittelständischer Unternehmen. Profitieren Sie von unserer Expertise und den Erfahrungen anderer KMUs.
+
+{: .notice--primary}
+**Regelmäßig neue Inhalte:** Jeden Dienstag erscheint ein neuer Artikel mit praktischen Tipps für KMU-Entscheider.
+
+## Unsere Blog-Kategorien
+
+### 🎯 **Digitaler Reifegrad**
+- Digitalisierung-Assessments für KMUs
+- Benchmarking und Best Practices
+- Roadmap-Entwicklung für die digitale Transformation
+- Change Management in kleinen Unternehmen
+
+### ⚡ **Power Platform Tipps**
+- Power Apps Entwicklungs-Tutorials
+- Power Automate Workflow-Beispiele
+- Integration-Lösungen für häufige Szenarien
+- Performance-Optimierung und Best Practices
+
+### 🤖 **Automatisierung für KMUs**
+- Prozessidentifikation und -priorisierung
+- ROI-Berechnung für Automatisierungsprojekte
+- Erfolgsgeschichten aus der Praxis
+- Fallstricke und wie man sie vermeidet
+
+### 📊 **Praxisbeispiele**
+- Detaillierte Case Studies
+- Vor-/Nachher-Vergleiche mit konkreten Zahlen
+- Branchen-spezifische Lösungsansätze
+- Lessons Learned aus realen Projekten
+
+### 💡 **KI für KMUs**
+- KI-Anwendungen im KMU-Alltag
+- Azure OpenAI und Copilot Integration
+- Praktische KI-Use-Cases
+- Datenschutz und Ethik bei KI-Nutzung
   <h2>Welcome to Our Blog</h2>
   <p>Discover the latest insights, product updates, and industry news from our team. We share valuable content about web development, design trends, and technology innovations.</p>
 </div>

@@ -1,131 +1,101 @@
 ---
-title: "Jekyll Minimal Mistakes Showcase"
+title: "KMUs digital stark machen – mit der Power Platform"
 layout: splash
 permalink: /
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/splash-bg.svg
+  overlay_color: "#0072C6"
+  overlay_filter: "0.4"
+  overlay_image: /assets/images/hero-power-platform.svg
   actions:
-    - label: "Showcase ansehen"
-      url: "/showcase/"
+    - label: "Demo vereinbaren"
+      url: "/kontakt/"
       class: "btn--primary btn--large"
-    - label: "GitHub Repository"
-      url: "https://github.com/username/username.github.io"
+    - label: "Digitalisierungs-Check starten"
+      url: "/digital-check/"
       class: "btn--inverse btn--large"
-excerpt: "Entdecke alle verfügbaren visuellen Komponenten und Elemente des Jekyll Minimal Mistakes Themes auf einer einzigen übersichtlichen Seite."
+excerpt: "**KMUpower** macht die Microsoft Power Platform für Schweizer KMUs zugänglich. Von der Beratung bis zur fertigen Lösung – pragmatisch, transparent und mit messbarem Mehrwert."
 
 intro: 
-  - excerpt: 'Diese Website demonstriert **alle verfügbaren visuellen Elemente** des Jekyll Minimal Mistakes Themes. Von einfachen Buttons bis hin zu komplexen Feature Rows - hier findest du alles an einem Ort. {: .text-center}'
+  - excerpt: 'Seit **2023** digitalisieren wir erfolgreich kleine und mittelständische Unternehmen im DACH-Raum. Nach unserem **Rebranding von ThePowerAddicts** fokussieren wir uns noch stärker auf die spezifischen Bedürfnisse von KMUs. {: .text-center}'
 
-feature_row:
-  - image_path: /assets/images/feature-components.svg
-    alt: "Visual Components"
-    title: "Visuelle Komponenten"
-    excerpt: "Buttons, Notice Boxes, Typography, Galleries und vieles mehr."
-    url: "/showcase/#components"
-    btn_label: "Entdecken"
+feature_row_highlights:
+  - image_path: /assets/images/suite-teaser.svg
+    alt: "KMUpower Suite"
+    title: "KMUpower Suite"
+    excerpt: "**Vorkonfigurierte Module** für typische KMU-Prozesse. CRM, Newsletter, Mitarbeiterverwaltung – sofort einsatzbereit."
+    url: "/suite/"
+    btn_label: "Suite entdecken"
     btn_class: "btn--primary"
-  - image_path: /assets/images/advanced-teaser.svg
-    alt: "Advanced Components"
-    title: "Advanced Components"
-    excerpt: "Modern UI elements like progress bars, cards, enhanced forms, and interactive components."
-    url: "/advanced-components/"
-    btn_label: "Explore"
+  - image_path: /assets/images/services-teaser.svg
+    alt: "Dienstleistungen"
+    title: "Maßgeschneiderte Lösungen"
+    excerpt: "**Power Apps & Power Automate** Entwicklung nach Ihren Anforderungen. Von der Idee bis zur produktiven Lösung."
+    url: "/dienstleistungen/"
+    btn_label: "Services ansehen"
     btn_class: "btn--primary"
-  - image_path: /assets/images/business-teaser.svg
-    alt: "Business Components"
-    title: "Business Features"
-    excerpt: "Corporate-ready components including team sections, testimonials, and service showcases."
-    url: "/business-components/"
-    btn_label: "View Business"
-    btn_class: "btn--primary"
-
-feature_row2:
-  - image_path: /assets/images/careers-teaser.svg
-    alt: "Careers"
-    title: "Careers & HR"
-    excerpt: 'Professional **careers section** with job listings, application forms, benefits showcase, and company culture presentation.'
-    url: "/careers/"
-    btn_label: "View Careers"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/partners-teaser.svg
-    alt: "Partnerships"
-    title: "Partners & Clients"
-    excerpt: 'Comprehensive **partnership pages** featuring client testimonials, success stories, and partnership inquiry forms.'
-    url: "/partners/"
-    btn_label: "See Partners"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/contact-teaser.svg
-    alt: "Contact"
-    title: "Contact & Support"
-    excerpt: 'Multi-channel **contact solutions** with forms, global offices, support channels, and response time commitments.'
-    url: "/contact/"
-    btn_label: "Contact Us"
-    btn_class: "btn--primary"
+  - image_path: /assets/images/blog-teaser.svg
+    alt: "KMU Digitalisierung Blog"
+    title: "Digitalisierungs-Know-how"
+    excerpt: "**Praktische Tipps** und Erfolgsgeschichten aus der KMU-Digitalisierung. Bleiben Sie am Puls der Zeit."
+    url: "/blog/"
+    btn_label: "Blog lesen"
     btn_class: "btn--primary"
 
-feature_row3:
-  - image_path: /assets/images/feature-customization.svg
-    alt: "Customization"
-    title: "Vollständig anpassbar"
-    excerpt: 'Mit über **10 verschiedenen Skins**, unzähligen Konfigurationsoptionen und Custom CSS kannst du das Theme genau nach deinen Vorstellungen gestalten.'
-    url: "/showcase/#customization"
-    btn_label: "Anpassen"
-    btn_class: "btn--primary"
+feature_row_mission:
+  - title: "Warum KMUpower?"
+    excerpt: '**Von ThePowerAddicts zu KMUpower** – dieser Wandel spiegelt unsere klare Mission wider: Wir machen Enterprise-Digitalisierung für KMUs zugänglich. Mit transparenten Preisen, pragmatischen Lösungen und dem Fokus auf **messbaren Geschäftswert**.'
+    url: "/ueber-uns/"
+    btn_label: "Unsere Geschichte"
+    btn_class: "btn--inverse"
+
+feature_row_benefits:
+  - image_path: /assets/images/benefit-transparent.svg
+    title: "Transparente Preise"
+    excerpt: "Keine versteckten Kosten. Klare Preismodelle, die in jedes KMU-Budget passen."
+  - image_path: /assets/images/benefit-pragmatic.svg
+    title: "Pragmatische Umsetzung"
+    excerpt: "Schnelle Implementierung ohne komplizierte IT-Infrastruktur. Nutzen Sie Ihr vorhandenes Microsoft 365."
+  - image_path: /assets/images/benefit-expertise.svg
+    title: "Microsoft Expertise"
+    excerpt: "Zertifizierte Power Platform Experten und MVPs. Direkter Draht zu Microsoft für neueste Features."
+
+testimonial_row:
+  - image_path: /assets/images/testimonial-1.svg
+    title: "\"Endlich weg von Excel-Chaos\""
+    excerpt: "\"KMUpower hat unsere Kundenverwaltung revolutioniert. Wir sparen täglich 2 Stunden und haben endlich den Überblick.\""
+    url: "/referenzen/"
+    btn_label: "Mehr Referenzen"
+    btn_class: "btn--inverse"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-## Was findest du hier?
+## Ihre Partner für KMU-Digitalisierung
 
-Diese Demonstrationsseite zeigt dir **alle verfügbaren visuellen Elemente** des Jekyll Minimal Mistakes Themes. Perfekt für:
+{% include feature_row id="feature_row_highlights" %}
 
-- 🎨 **Designer** die alle verfügbaren Komponenten sehen möchten
-- 👩‍💻 **Entwickler** die Implementation-Details benötigen  
-- 📝 **Content-Creators** die ihre Optionen erkunden wollen
-- 🔧 **Theme-Customizer** die Anpassungsmöglichkeiten suchen
+{% include feature_row id="feature_row_mission" type="left" %}
 
-## 🎨 Design System Showcases
+## Was unsere Kunden schätzen
 
-Entdecke verschiedene moderne Design-Systeme und UI-Frameworks, die mit Jekyll Minimal Mistakes umgesetzt wurden:
+{% include feature_row id="feature_row_benefits" %}
 
-### Populäre UI-Frameworks
-- **[Microsoft Fluent Design](https://marcelehmann.github.io/GitHubPagesSample/fluent-design/)** - Modernes Design System von Microsoft mit Fluent UI Komponenten
-- **[Tailwind CSS Demo](https://marcelehmann.github.io/GitHubPagesSample/tailwind-demo/)** - Utility-first CSS Framework für schnelle und flexible Designs
-- **[Material Design](https://marcelehmann.github.io/GitHubPagesSample/material-design/)** - Googles Design Language mit charakteristischen Elementen
-- **[Bootstrap Demo](https://marcelehmann.github.io/GitHubPagesSample/bootstrap-demo/)** - Das beliebteste CSS Framework für responsive Websites
+{% include feature_row id="testimonial_row" type="center" %}
 
-### Web-Standards & Specialized Frameworks
-- **[CSS Grid & Flexbox](https://marcelehmann.github.io/GitHubPagesSample/css-grid-flexbox/)** - Moderne Layout-Techniken für responsive Designs
-- **[Ant Design](https://marcelehmann.github.io/GitHubPagesSample/ant-design/)** - Enterprise-Class UI Design Language und React Components
-- **[IBM Carbon Design](https://marcelehmann.github.io/GitHubPagesSample/carbon-design/)** - Open-Source Design System für digitale Produkte und Erlebnisse
+## Bereit für den nächsten Digitalisierungsschritt?
 
-{: .notice--primary}
-**Hinweis:** Alle Showcases demonstrieren, wie verschiedene Design-Systeme und UI-Frameworks mit Jekyll Minimal Mistakes kombiniert werden können.
+{: .text-center}
+Ob vorkonfigurierte Suite oder maßgeschneiderte Lösung – wir finden den optimalen Weg für Ihr Unternehmen.
 
-{% include feature_row %}
-
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-## Quick Start
-
-1. **Fork** dieses Repository
-2. **Anpassen** der `_config.yml` mit deinen Daten
-3. **Deployen** auf GitHub Pages
-4. **Erkunden** aller verfügbaren Elemente
-
-{: .notice--info}
-**Tipp:** Schau dir den [Showcase](/showcase/) an, um alle Komponenten in Aktion zu sehen!
+{: .text-center}
+**[Kostenloses Beratungsgespräch vereinbaren](/kontakt/){: .btn .btn--primary .btn--large}**
 
 ---
 
-## Neueste Updates
+## Aktuelles aus unserem Blog
 
 {% for post in site.posts limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
 
-**[Alle Posts ansehen](/posts/){: .btn .btn--primary}**
+**[Alle Artikel lesen](/blog/){: .btn .btn--primary}**

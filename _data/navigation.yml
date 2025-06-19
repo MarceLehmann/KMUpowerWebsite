@@ -1,23 +1,31 @@
-# Navigation links
+# KMUpower Navigation
 main:
   - title: "Home"
     url: /
-  - title: "Showcase"
-    url: /showcase/
-  - title: "Advanced"
-    url: /advanced-components/
-  - title: "Business"
-    url: /business-components/
-  - title: "Gallery"
-    url: /gallery/
-  - title: "Dashboard"
-    url: /dashboard/
-  - title: "Testimonials"
-    url: /testimonials/
-  - title: "FAQ"
-    url: /faq/
+  - title: "Über uns"
+    url: /ueber-uns/
+  - title: "KMUpower Suite"
+    url: /suite/
+    children:
+      - title: "CRM Modul" 
+        url: /suite/crm/
+      - title: "Newsletter Modul"
+        url: /suite/newsletter/
+      - title: "Mitarbeiter Modul"
+        url: /suite/mitarbeiter/
+  - title: "Dienstleistungen"
+    url: /dienstleistungen/
+    children:
+      - title: "Power Apps Entwicklung"
+        url: /dienstleistungen/powerapps/
+      - title: "Power Automate Workflows"
+        url: /dienstleistungen/powerautomate/
   - title: "Blog"
     url: /blog/
+  - title: "Preise"
+    url: /preise/
+  - title: "Kontakt"
+    url: /kontakt/
   - title: "Design Systems"
     children:
       - title: "Fluent Design 2"
