@@ -1,0 +1,75 @@
+# Navigation links
+main:
+  - title: "Home"
+    url: /
+  - title: "Showcase"
+    url: /showcase/
+  - title: "Advanced"
+    url: /advanced-components/
+  - title: "Business"
+    url: /business-components/
+  - title: "Gallery"
+    url: /gallery/
+  - title: "Dashboard"
+    url: /dashboard/
+  - title: "Testimonials"
+    url: /testimonials/
+  - title: "FAQ"
+    url: /faq/
+  - title: "Blog"
+    url: /blog/
+  - title: "Design Systems"
+    children:
+      - title: "Fluent Design 2"
+        url: /fluent-design/
+      - title: "Tailwind CSS"
+        url: /tailwind-demo/
+      - title: "Material Design 3"
+        url: /material-design/
+      - title: "Bootstrap 5"
+        url: /bootstrap-demo/
+      - title: "CSS Grid & Flexbox"
+        url: /css-grid-flexbox/
+      - title: "Ant Design"
+        url: /ant-design/
+      - title: "Carbon Design"
+        url: /carbon-design/
+  - title: "Contact"
+    url: /contact/
+
+# Sidebar navigation example
+showcase_nav:
+  - title: "Visual Elements"
+    children:
+      - title: "Typography"
+        url: /showcase/#typography
+      - title: "Buttons"
+        url: /showcase/#buttons
+      - title: "Notice Boxes"
+        url: /showcase/#notice-boxes
+      - title: "Feature Rows"
+        url: /showcase/#feature-rows
+      - title: "Galleries"
+        url: /showcase/#galleries
+      - title: "Tables"
+        url: /showcase/#tables
+      - title: "Forms"
+        url: /advanced-components/#forms--input-elements
+  - title: "Advanced Components"
+    children:
+      - title: "Custom Cards"
+        url: /advanced-components/#custom-cards
+      - title: "Progress Bars"
+        url: /advanced-components/#progress-indicators
+      - title: "Social Integration"
+        url: /advanced-components/#social-media-integration
+      - title: "Enhanced Notices"
+        url: /advanced-components/#advanced-notice-variations
+  - title: "Layouts"
+    children:
+      - title: "Single"
+        url: /showcase/#single-layout
+      - title: "Splash"
+        url: /showcase/#splash-layout
+      - title: "Archive"
+        url: /showcase/#archive-layout

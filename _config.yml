@@ -1,0 +1,226 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "Professional Corporate Website Showcase"
+title_separator: "|"
+subtitle: "Complete Jekyll Minimal Mistakes Demo"
+name: "Corporate Showcase"
+description: "A comprehensive demonstration of professional corporate website features using Jekyll Minimal Mistakes theme. Includes business components, accessibility features, PWA capabilities, and modern UI elements."
+url: "https://marcelehmann.github.io" # Replace with your actual GitHub Pages URL
+baseurl: "/GitHubPagesSample" # the subpath of your site, e.g. "/blog"
+teaser: "/assets/images/teaser-default.svg"
+logo: "/assets/images/logo.svg"
+masthead_title: "Corporate Showcase"
+breadcrumbs: true
+
+# SEO & Social
+locale: "en-US"
+repository: "username/jekyll-minimal-mistakes-showcase"
+og_image: "/assets/images/social-share.svg"
+twitter:
+  username: "corporateshowcase"
+facebook:
+  username: "corporateshowcase"
+social:
+  type: Organization
+  name: "Corporate Showcase"
+  links:
+    - "https://twitter.com/corporateshowcase"
+    - "https://github.com/username/jekyll-minimal-mistakes-showcase"
+    - "https://linkedin.com/company/corporate-showcase"
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-XXXXXXXXXX" # Replace with your actual Google Analytics ID
+    anonymize_ip: true
+    
+# Search
+search: true
+search_full_content: true
+search_provider: "lunr"
+
+# Comments
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "corporate-showcase" # Replace with your Disqus shortname
+
+# Site Author
+author:
+  name: "Jekyll Showcaser"
+  avatar: "/assets/images/avatar.svg"
+  bio: "Demonstriere alle verfügbaren visuellen Elemente und Komponenten des Minimal Mistakes Themes für Jekyll."
+  location: "GitHub Pages"
+  email: "demo@example.com"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://example.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/username"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/username"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/username"
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/username"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/username"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/username"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: Europe/Berlin
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
+
+# Theme
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Custom CSS and JS
+head_scripts:
+  - /assets/css/custom.css
+  - /assets/css/cookie-consent.css
+  - /assets/css/notifications.css
+
+after_footer_scripts:
+  - /assets/js/cookie-consent.js
+  - /assets/js/notifications.js
+
+# SEO
+locale: "de-DE"
+search: true
