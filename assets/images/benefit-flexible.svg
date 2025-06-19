@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="flexBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" rx="10" fill="url(#flexBg)"/>
+  
+  <!-- Laptop -->
+  <rect x="60" y="80" width="80" height="50" rx="4" fill="white" opacity="0.9"/>
+  <rect x="65" y="85" width="70" height="35" fill="#4facfe"/>
+  <rect x="90" y="130" width="20" height="8" fill="white" opacity="0.9"/>
+  <rect x="85" y="138" width="30" height="4" rx="2" fill="white" opacity="0.9"/>
+  
+  <!-- Clock -->
+  <circle cx="50" cy="60" r="15" fill="white" opacity="0.8"/>
+  <line x1="50" y1="60" x2="50" y2="50" stroke="#4facfe" stroke-width="2"/>
+  <line x1="50" y1="60" x2="58" y2="60" stroke="#4facfe" stroke-width="2"/>
+  
+  <!-- Home -->
+  <path d="M130,40 L150,60 L170,40 L170,70 L130,70 Z" fill="white" opacity="0.8"/>
+  <rect x="140" y="50" width="20" height="20" fill="#4facfe"/>
+  <rect x="145" y="55" width="4" height="8" fill="white"/>
+  <rect x="151" y="55" width="4" height="8" fill="white"/>
+  <rect x="148" y="63" width="4" height="7" fill="white"/>
+  
+  <!-- Arrows indicating flexibility -->
+  <path d="M100,160 L90,150 L95,155 L85,155 L85,150 L80,157 L85,164 L85,159 L95,159 L90,164 Z" 
+        fill="white" opacity="0.7"/>
+  <path d="M100,160 L110,150 L105,155 L115,155 L115,150 L120,157 L115,164 L115,159 L105,159 L110,164 Z" 
+        fill="white" opacity="0.7"/>
+  
+  <!-- Title -->
+  <text x="100" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Flexible Working
+  </text>
+</svg>

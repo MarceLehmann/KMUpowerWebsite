@@ -1,0 +1,53 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="singleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#singleGradient)"/>
+  
+  <!-- Large content area -->
+  <g transform="translate(100,100)">
+    <rect x="0" y="0" width="600" height="350" rx="20" fill="white" opacity="0.95"/>
+    <rect x="30" y="30" width="540" height="24" rx="12" fill="url(#singleGradient)"/>
+    
+    <!-- Content sections -->
+    <rect x="30" y="80" width="200" height="120" rx="12" fill="url(#singleGradient)" opacity="0.3"/>
+    <text x="130" y="145" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Large</text>
+    <text x="130" y="165" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14">Image</text>
+    
+    <rect x="260" y="80" width="310" height="8" rx="4" fill="#333"/>
+    <rect x="260" y="100" width="280" height="6" rx="3" fill="#666"/>
+    <rect x="260" y="115" width="290" height="6" rx="3" fill="#666"/>
+    <rect x="260" y="130" width="250" height="6" rx="3" fill="#666"/>
+    <rect x="260" y="145" width="300" height="6" rx="3" fill="#666"/>
+    <rect x="260" y="160" width="220" height="6" rx="3" fill="#666"/>
+    <rect x="260" y="175" width="280" height="6" rx="3" fill="#666"/>
+    
+    <!-- Additional content -->
+    <rect x="30" y="230" width="540" height="6" rx="3" fill="#333"/>
+    <rect x="30" y="245" width="500" height="5" rx="2.5" fill="#666"/>
+    <rect x="30" y="260" width="520" height="5" rx="2.5" fill="#666"/>
+    <rect x="30" y="275" width="480" height="5" rx="2.5" fill="#666"/>
+    <rect x="30" y="290" width="540" height="5" rx="2.5" fill="#666"/>
+    <rect x="30" y="305" width="460" height="5" rx="2.5" fill="#666"/>
+    
+    <!-- Action button -->
+    <rect x="480" y="320" width="90" height="20" rx="10" fill="url(#singleGradient)"/>
+    <text x="525" y="335" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">View Large</text>
+  </g>
+  
+  <!-- Popup indicator -->
+  <g opacity="0.7">
+    <circle cx="700" cy="150" r="20" fill="white"/>
+    <circle cx="700" cy="150" r="12" fill="url(#singleGradient)"/>
+    <text x="700" y="155" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🔍</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="550" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Single Large Image</text>
+  <text x="400" y="575" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" opacity="0.9">Click to open in popup overlay</text>
+</svg>

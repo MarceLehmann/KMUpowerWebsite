@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="headerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#headerBg)"/>
+  
+  <!-- Overlay pattern -->
+  <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/>
+  </pattern>
+  <rect width="1200" height="400" fill="url(#dots)"/>
+  
+  <!-- Main content area -->
+  <rect x="100" y="150" width="1000" height="100" rx="10" fill="rgba(255,255,255,0.1)"/>
+  
+  <!-- Title -->
+  <text x="600" y="190" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="white">
+    Welcome to Jekyll Showcase
+  </text>
+  <text x="600" y="220" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="rgba(255,255,255,0.9)">
+    Explore all visual components and elements
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="100" r="30" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="1000" cy="300" r="25" fill="rgba(255,255,255,0.12)"/>
+  <polygon points="150,320 170,350 190,320 170,290" fill="rgba(255,255,255,0.1)"/>
+</svg>

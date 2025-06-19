@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="gallery3th" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" rx="8" fill="url(#gallery3th)"/>
+  
+  <!-- Circles -->
+  <circle cx="100" cy="100" r="40" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <circle cx="100" cy="100" r="25" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
+  <circle cx="100" cy="100" r="12" fill="rgba(255,255,255,0.15)"/>
+  
+  <!-- Number -->
+  <text x="100" y="110" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">
+    3
+  </text>
+</svg>

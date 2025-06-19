@@ -1,0 +1,129 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="showcaseGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="componentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#showcaseGradient)"/>
+  
+  <!-- Grid Pattern -->
+  <g opacity="0.1">
+    <defs>
+      <pattern id="showcaseGrid" width="60" height="60" patternUnits="userSpaceOnUse">
+        <path d="M 60 0 L 0 0 0 60" fill="none" stroke="white" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#showcaseGrid)" />
+  </g>
+  
+  <!-- Component Showcase -->
+  <g transform="translate(120,60)">
+    <!-- Buttons Section -->
+    <rect x="0" y="0" width="180" height="100" rx="12" fill="white" opacity="0.9" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <text x="90" y="25" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Buttons</text>
+    <rect x="20" y="35" width="60" height="20" rx="10" fill="url(#componentGradient)"/>
+    <text x="50" y="48" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Primary</text>
+    <rect x="100" y="35" width="60" height="20" rx="10" fill="none" stroke="url(#componentGradient)" stroke-width="1"/>
+    <text x="130" y="48" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Outline</text>
+    <rect x="20" y="65" width="140" height="15" rx="8" fill="#28a745"/>
+    <text x="90" y="76" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Success Button</text>
+    
+    <!-- Notice Boxes -->
+    <rect x="210" y="0" width="180" height="100" rx="12" fill="white" opacity="0.9" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <text x="300" y="25" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Notice Boxes</text>
+    <rect x="230" y="35" width="140" height="12" rx="6" fill="#d4edda" stroke="#c3e6cb" stroke-width="1"/>
+    <text x="300" y="44" text-anchor="middle" fill="#155724" font-family="Arial, sans-serif" font-size="8">Success Notice</text>
+    <rect x="230" y="52" width="140" height="12" rx="6" fill="#fff3cd" stroke="#ffeaa7" stroke-width="1"/>
+    <text x="300" y="61" text-anchor="middle" fill="#856404" font-family="Arial, sans-serif" font-size="8">Warning Notice</text>
+    <rect x="230" y="69" width="140" height="12" rx="6" fill="#f8d7da" stroke="#f5c6cb" stroke-width="1"/>
+    <text x="300" y="78" text-anchor="middle" fill="#721c24" font-family="Arial, sans-serif" font-size="8">Danger Notice</text>
+    
+    <!-- Cards -->
+    <rect x="420" y="0" width="180" height="100" rx="12" fill="white" opacity="0.9" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <text x="510" y="25" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Cards</text>
+    <rect x="440" y="35" width="140" height="55" rx="8" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
+    <rect x="450" y="42" width="40" height="25" rx="4" fill="url(#componentGradient)"/>
+    <rect x="500" y="45" width="70" height="4" rx="2" fill="#333"/>
+    <rect x="500" y="52" width="50" height="3" rx="1.5" fill="#666"/>
+    <rect x="500" y="60" width="80" height="3" rx="1.5" fill="#666"/>
+    <rect x="500" y="67" width="60" height="3" rx="1.5" fill="#666"/>
+    <rect x="500" y="78" width="30" height="8" rx="4" fill="url(#componentGradient)"/>
+    
+    <!-- Forms -->
+    <rect x="630" y="0" width="180" height="100" rx="12" fill="white" opacity="0.9" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <text x="720" y="25" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Forms</text>
+    <rect x="650" y="35" width="140" height="12" rx="6" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
+    <rect x="650" y="52" width="140" height="12" rx="6" fill="#f8f9fa" stroke="#e9ecef" stroke-width="1"/>
+    <rect x="650" y="69" width="140" height="15" rx="8" fill="url(#componentGradient)"/>
+    <text x="720" y="79" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="9" font-weight="bold">Submit</text>
+    
+    <!-- Navigation -->
+    <rect x="840" y="0" width="180" height="100" rx="12" fill="white" opacity="0.9" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <text x="930" y="25" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Navigation</text>
+    <rect x="860" y="35" width="140" height="8" rx="4" fill="url(#showcaseGradient)"/>
+    <rect x="870" y="50" width="20" height="6" rx="3" fill="#e9ecef"/>
+    <rect x="900" y="50" width="30" height="6" rx="3" fill="#e9ecef"/>
+    <rect x="940" y="50" width="25" height="6" rx="3" fill="#e9ecef"/>
+    <rect x="975" y="50" width="15" height="6" rx="3" fill="#e9ecef"/>
+    <rect x="860" y="65" width="140" height="3" rx="1.5" fill="#dee2e6"/>
+    <rect x="860" y="72" width="120" height="3" rx="1.5" fill="#dee2e6"/>
+    <rect x="860" y="79" width="100" height="3" rx="1.5" fill="#dee2e6"/>
+  </g>
+  
+  <!-- Second Row -->
+  <g transform="translate(120,200)">
+    <!-- Typography -->
+    <rect x="0" y="0" width="240" height="80" rx="12" fill="white" opacity="0.9" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <text x="120" y="25" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Typography</text>
+    <rect x="20" y="35" width="200" height="6" rx="3" fill="#333"/>
+    <rect x="20" y="46" width="160" height="4" rx="2" fill="#666"/>
+    <rect x="20" y="54" width="180" height="4" rx="2" fill="#666"/>
+    <rect x="20" y="62" width="140" height="4" rx="2" fill="#666"/>
+    
+    <!-- Layout Options -->
+    <rect x="270" y="0" width="240" height="80" rx="12" fill="white" opacity="0.9" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <text x="390" y="25" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Layouts</text>
+    <rect x="285" y="35" width="50" height="35" rx="4" fill="url(#componentGradient)" opacity="0.3"/>
+    <rect x="345" y="35" width="60" height="35" rx="4" fill="url(#showcaseGradient)" opacity="0.3"/>
+    <rect x="415" y="35" width="45" height="35" rx="4" fill="url(#componentGradient)" opacity="0.3"/>
+    <rect x="470" y="35" width="30" height="35" rx="4" fill="url(#showcaseGradient)" opacity="0.3"/>
+    
+    <!-- Galleries -->
+    <rect x="540" y="0" width="240" height="80" rx="12" fill="white" opacity="0.9" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <text x="660" y="25" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Galleries</text>
+    <rect x="555" y="35" width="30" height="30" rx="4" fill="url(#componentGradient)"/>
+    <rect x="595" y="35" width="30" height="30" rx="4" fill="url(#showcaseGradient)"/>
+    <rect x="635" y="35" width="30" height="30" rx="4" fill="url(#componentGradient)"/>
+    <rect x="675" y="35" width="30" height="30" rx="4" fill="url(#showcaseGradient)"/>
+    <rect x="715" y="35" width="30" height="30" rx="4" fill="url(#componentGradient)"/>
+    
+    <!-- Advanced Features -->
+    <rect x="810" y="0" width="240" height="80" rx="12" fill="white" opacity="0.9" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.15))"/>
+    <text x="930" y="25" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Advanced</text>
+    <circle cx="845" cy="50" r="12" fill="none" stroke="url(#componentGradient)" stroke-width="2"/>
+    <circle cx="845" cy="50" r="6" fill="url(#componentGradient)"/>
+    <rect x="870" y="42" width="60" height="4" rx="2" fill="url(#showcaseGradient)"/>
+    <rect x="870" y="50" width="40" height="4" rx="2" fill="#28a745"/>
+    <rect x="870" y="58" width="50" height="4" rx="2" fill="#ffc107"/>
+    <rect x="950" y="42" width="80" height="16" rx="8" fill="url(#componentGradient)"/>
+    <text x="990" y="53" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Action</text>
+  </g>
+  
+  <!-- Floating Elements -->
+  <g opacity="0.3">
+    <circle cx="60" cy="150" r="15" fill="white"/>
+    <circle cx="1140" cy="200" r="20" fill="white"/>
+    <circle cx="100" cy="350" r="12" fill="white"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="350" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="bold">Component Showcase</text>
+  <text x="600" y="375" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" opacity="0.9">Buttons • Forms • Cards • Navigation • Typography • Layouts</text>
+</svg>

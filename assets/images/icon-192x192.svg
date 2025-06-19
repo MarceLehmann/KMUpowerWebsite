@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="96" cy="96" r="90" fill="url(#iconGradient)" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- Letter M styling for Minimal Mistakes -->
+  <text x="96" y="120" text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-size="80" 
+        font-weight="bold" 
+        fill="#ffffff">M</text>
+        
+  <!-- Small decorative dots -->
+  <circle cx="70" cy="60" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="122" cy="60" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="96" cy="140" r="3" fill="#ffffff" opacity="0.6"/>
+</svg>

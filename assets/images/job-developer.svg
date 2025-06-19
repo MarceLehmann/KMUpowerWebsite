@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <defs>
+    <linearGradient id="devBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="url(#devBg)"/>
+  
+  <!-- Code editor mockup -->
+  <rect x="50" y="40" width="200" height="120" rx="8" fill="white" opacity="0.95"/>
+  <rect x="50" y="40" width="200" height="25" fill="#333"/>
+  <circle cx="65" cy="52" r="3" fill="#ff5f5f"/>
+  <circle cx="80" cy="52" r="3" fill="#ffb938"/>
+  <circle cx="95" cy="52" r="3" fill="#28ca42"/>
+  
+  <!-- Code lines -->
+  <rect x="60" y="80" width="60" height="3" fill="#667eea"/>
+  <rect x="60" y="90" width="40" height="3" fill="#52c41a"/>
+  <rect x="110" y="90" width="30" height="3" fill="#fa8c16"/>
+  <rect x="60" y="100" width="80" height="3" fill="#722ed1"/>
+  <rect x="60" y="110" width="50" height="3" fill="#eb2f96"/>
+  <rect x="60" y="120" width="70" height="3" fill="#13c2c2"/>
+  <rect x="60" y="130" width="35" height="3" fill="#f5222d"/>
+  
+  <!-- Brackets and symbols -->
+  <text x="150" y="85" fill="#333" font-family="monospace" font-size="12">&lt;/&gt;</text>
+  <text x="180" y="105" fill="#333" font-family="monospace" font-size="12">{}</text>
+  <text x="200" y="125" fill="#333" font-family="monospace" font-size="12">;</text>
+  
+  <!-- Title -->
+  <text x="150" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    Frontend Developer
+  </text>
+</svg>

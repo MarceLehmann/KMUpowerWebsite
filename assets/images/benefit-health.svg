@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="healthBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#56ab2f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a8e6cf;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" rx="10" fill="url(#healthBg)"/>
+  
+  <!-- Health cross -->
+  <g transform="translate(100,100)">
+    <circle cx="0" cy="0" r="40" fill="white" opacity="0.9"/>
+    <rect x="-20" y="-5" width="40" height="10" fill="#56ab2f"/>
+    <rect x="-5" y="-20" width="10" height="40" fill="#56ab2f"/>
+  </g>
+  
+  <!-- Heartbeat line -->
+  <path d="M30,140 L40,140 L50,120 L60,160 L70,100 L80,180 L90,140 L170,140" 
+        stroke="white" stroke-width="3" fill="none" opacity="0.8"/>
+        
+  <!-- Heart -->
+  <path d="M100,60 C100,55 95,50 90,50 C85,50 80,55 80,60 C80,55 75,50 70,50 C65,50 60,55 60,60 C60,70 80,90 80,90 S100,70 100,60 Z" 
+        fill="white" opacity="0.7"/>
+  
+  <!-- Title -->
+  <text x="100" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Health & Wellness
+  </text>
+</svg>

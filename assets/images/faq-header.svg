@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="faqGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#faqGradient)"/>
+  
+  <!-- Pattern Background -->
+  <defs>
+    <pattern id="questionPattern" width="60" height="60" patternUnits="userSpaceOnUse">
+      <text x="30" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="white" opacity="0.1">?</text>
+    </pattern>
+  </defs>
+  <rect width="1200" height="400" fill="url(#questionPattern)"/>
+  
+  <!-- FAQ Cards -->
+  <g transform="translate(100, 80)">
+    <!-- First FAQ Card -->
+    <rect x="0" y="0" width="300" height="100" rx="12" fill="white" fill-opacity="0.95"/>
+    
+    <!-- Question -->
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">
+      Q: Wie fange ich an?
+    </text>
+    
+    <!-- Answer -->
+    <text x="20" y="50" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">
+      A: Registrieren Sie sich für ein kostenloses
+    </text>
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">
+      Konto und folgen Sie unserem Setup-Guide.
+    </text>
+    
+    <!-- Status indicator -->
+    <circle cx="270" cy="25" r="8" fill="#2ecc71"/>
+    <text x="270" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">✓</text>
+  </g>
+  
+  <g transform="translate(450, 120)">
+    <!-- Second FAQ Card -->
+    <rect x="0" y="0" width="280" height="90" rx="12" fill="white" fill-opacity="0.9"/>
+    
+    <!-- Question -->
+    <text x="20" y="25" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">
+      Q: Welche Preise haben Sie?
+    </text>
+    
+    <!-- Answer -->
+    <text x="20" y="45" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">
+      A: Ab €29/Monat für Professional.
+    </text>
+    <text x="20" y="58" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">
+      Kostenlose 14-Tage Testversion verfügbar.
+    </text>
+    
+    <!-- Price indicator -->
+    <rect x="200" y="15" width="60" height="25" rx="4" fill="url(#cardGradient)"/>
+    <text x="230" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">€29/mo</text>
+  </g>
+  
+  <g transform="translate(200, 220)">
+    <!-- Third FAQ Card -->
+    <rect x="0" y="0" width="260" height="80" rx="12" fill="white" fill-opacity="0.85"/>
+    
+    <!-- Question -->
+    <text x="15" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Q: Ist Support verfügbar?
+    </text>
+    
+    <!-- Answer -->
+    <text x="15" y="40" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">
+      A: 24/7 Live Chat und E-Mail Support
+    </text>
+    <text x="15" y="52" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">
+      für alle Premium-Kunden.
+    </text>
+    
+    <!-- Support indicator -->
+    <text x="220" y="25" font-family="Arial, sans-serif" font-size="20" fill="#3498db">💬</text>
+    <text x="220" y="45" font-family="Arial, sans-serif" font-size="8" fill="#2ecc71">24/7</text>
+  </g>
+  
+  <!-- Large Question Mark -->
+  <g transform="translate(800, 120)">
+    <circle cx="0" cy="0" r="80" fill="white" fill-opacity="0.9"/>
+    <text x="0" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="url(#cardGradient)">?</text>
+  </g>
+  
+  <!-- Search Bar Illustration -->
+  <g transform="translate(950, 100)">
+    <rect x="0" y="0" width="200" height="40" rx="20" fill="white" fill-opacity="0.95"/>
+    <text x="15" y="25" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">🔍 Suche in FAQs...</text>
+  </g>
+  
+  <!-- Statistics -->
+  <g transform="translate(950, 200)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="white" fill-opacity="0.9"/>
+    
+    <!-- Stats -->
+    <text x="90" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2ecc71">95%</text>
+    <text x="90" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Fragen beantwortet</text>
+    
+    <text x="90" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3498db">&lt; 2min</text>
+    <text x="90" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Durchschn. Lesezeit</text>
+    
+    <text x="90" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">24/7</text>
+    <text x="90" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Support verfügbar</text>
+  </g>
+  
+  <!-- Category Pills -->
+  <g transform="translate(550, 280)">
+    <rect x="0" y="0" width="60" height="25" rx="12" fill="white" fill-opacity="0.8"/>
+    <text x="30" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Alle</text>
+    
+    <rect x="70" y="0" width="80" height="25" rx="12" fill="url(#cardGradient)"/>
+    <text x="110" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Allgemein</text>
+    
+    <rect x="160" y="0" width="60" height="25" rx="12" fill="white" fill-opacity="0.8"/>
+    <text x="190" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Preise</text>
+    
+    <rect x="230" y="0" width="70" height="25" rx="12" fill="white" fill-opacity="0.8"/>
+    <text x="265" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Support</text>
+  </g>
+  
+  <!-- Floating Elements -->
+  <g opacity="0.4">
+    <text x="50" y="50" font-family="Arial, sans-serif" font-size="24" fill="white">❓</text>
+    <text x="1100" y="60" font-family="Arial, sans-serif" font-size="20" fill="white">💡</text>
+    <text x="30" y="350" font-family="Arial, sans-serif" font-size="18" fill="white">🔍</text>
+    <text x="1150" y="350" font-family="Arial, sans-serif" font-size="16" fill="white">📚</text>
+    
+    <!-- Animated elements -->
+    <g>
+      <circle cx="150" cy="60" r="3" fill="white">
+        <animate attributeName="cy" values="60;80;60" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1050" cy="80" r="2" fill="white">
+        <animate attributeName="cy" values="80;60;80" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+  
+  <!-- Main Title -->
+  <text x="600" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" filter="url(#glow)">
+    Häufige Fragen
+  </text>
+  <text x="600" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="white" fill-opacity="0.9">
+    Finden Sie schnell Antworten auf Ihre Fragen
+  </text>
+</svg>

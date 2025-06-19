@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="gallery5th" x1="45%" y1="0%" x2="55%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffecd2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fcb69f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="200" height="200" rx="8" fill="url(#gallery5th)"/>
+  
+  <g fill="rgba(255,255,255,0.2)">
+    <polygon points="100,50 125,100 75,100"/>
+    <polygon points="60,130 85,180 35,180"/>
+    <polygon points="140,130 165,180 115,180"/>
+  </g>
+  
+  <text x="100" y="110" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">5</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="gallery1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#gallery1)"/>
+  
+  <!-- Geometric pattern -->
+  <g fill="rgba(255,255,255,0.1)">
+    <circle cx="150" cy="100" r="40"/>
+    <rect x="300" y="60" width="80" height="80" rx="10"/>
+    <polygon points="500,80 530,140 470,140"/>
+    <circle cx="100" cy="250" r="30"/>
+    <rect x="250" y="220" width="60" height="60" rx="8"/>
+    <circle cx="450" cy="280" r="35"/>
+  </g>
+  
+  <!-- Label -->
+  <rect x="50" y="320" width="500" height="60" rx="8" fill="rgba(255,255,255,0.9)"/>
+  <text x="300" y="345" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">
+    Gallery Image 1
+  </text>
+  <text x="300" y="365" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">
+    Abstract geometric patterns
+  </text>
+</svg>

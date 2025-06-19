@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="vacationBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fa709a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fee140;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" rx="10" fill="url(#vacationBg)"/>
+  
+  <!-- Sun -->
+  <circle cx="50" cy="50" r="15" fill="white" opacity="0.9"/>
+  <g transform="translate(50,50)">
+    <line x1="0" y1="-25" x2="0" y2="-20" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="18" y1="-18" x2="14" y2="-14" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="25" y1="0" x2="20" y2="0" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="18" y1="18" x2="14" y2="14" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="0" y1="25" x2="0" y2="20" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="-18" y1="18" x2="-14" y2="14" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="-25" y1="0" x2="-20" y2="0" stroke="white" stroke-width="2" opacity="0.7"/>
+    <line x1="-18" y1="-18" x2="-14" y2="-14" stroke="white" stroke-width="2" opacity="0.7"/>
+  </g>
+  
+  <!-- Beach umbrella -->
+  <path d="M100,80 Q80,60 100,60 Q120,60 100,80" fill="white" opacity="0.9"/>
+  <path d="M100,80 Q90,65 100,65 Q110,65 100,80" fill="#fa709a"/>
+  <line x1="100" y1="80" x2="100" y2="130" stroke="white" stroke-width="3" opacity="0.9"/>
+  
+  <!-- Palm tree -->
+  <line x1="150" y1="140" x2="150" y2="80" stroke="white" stroke-width="4" opacity="0.8"/>
+  <path d="M150,80 Q140,70 130,75 Q135,80 150,80" fill="white" opacity="0.8"/>
+  <path d="M150,80 Q160,70 170,75 Q165,80 150,80" fill="white" opacity="0.8"/>
+  <path d="M150,80 Q145,65 140,70 Q145,75 150,80" fill="white" opacity="0.8"/>
+  <path d="M150,80 Q155,65 160,70 Q155,75 150,80" fill="white" opacity="0.8"/>
+  
+  <!-- Waves -->
+  <path d="M20,140 Q40,135 60,140 Q80,145 100,140 Q120,135 140,140 Q160,145 180,140" 
+        stroke="white" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M20,150 Q40,145 60,150 Q80,155 100,150 Q120,145 140,150 Q160,155 180,150" 
+        stroke="white" stroke-width="2" fill="none" opacity="0.4"/>
+  
+  <!-- Title -->
+  <text x="100" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+    Generous PTO
+  </text>
+</svg>

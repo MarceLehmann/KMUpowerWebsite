@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="teaserGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#teaserGradient)" rx="12"/>
+  
+  <!-- Grid Pattern -->
+  <defs>
+    <pattern id="smallGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="white" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#smallGrid)" rx="12"/>
+  
+  <!-- Dashboard Elements -->
+  <g transform="translate(50, 50)">
+    <!-- Main Chart -->
+    <rect x="0" y="0" width="140" height="90" rx="8" fill="white" fill-opacity="0.9"/>
+    
+    <!-- Bar Chart -->
+    <rect x="15" y="60" width="12" height="15" fill="url(#cardGradient)" rx="2"/>
+    <rect x="30" y="45" width="12" height="30" fill="url(#cardGradient)" rx="2"/>
+    <rect x="45" y="35" width="12" height="40" fill="url(#cardGradient)" rx="2"/>
+    <rect x="60" y="50" width="12" height="25" fill="url(#cardGradient)" rx="2"/>
+    <rect x="75" y="40" width="12" height="35" fill="url(#cardGradient)" rx="2"/>
+    
+    <!-- Line Chart -->
+    <path d="M 95 60 Q 105 45 115 50 Q 125 35 135 40" 
+          stroke="url(#cardGradient)" stroke-width="2" fill="none"/>
+    <circle cx="95" cy="60" r="3" fill="url(#cardGradient)"/>
+    <circle cx="115" cy="50" r="3" fill="url(#cardGradient)"/>
+    <circle cx="135" cy="40" r="3" fill="url(#cardGradient)"/>
+    
+    <!-- Chart Title -->
+    <text x="70" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">
+      Analytics
+    </text>
+  </g>
+  
+  <!-- KPI Cards -->
+  <g transform="translate(220, 40)">
+    <!-- Revenue -->
+    <rect x="0" y="0" width="70" height="50" rx="6" fill="white" fill-opacity="0.9"/>
+    <text x="35" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#2ecc71">💰</text>
+    <text x="35" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">€125K</text>
+    <text x="35" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#27ae60">+12%</text>
+    
+    <!-- Users -->
+    <rect x="80" y="0" width="70" height="50" rx="6" fill="white" fill-opacity="0.9"/>
+    <text x="115" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#3498db">👥</text>
+    <text x="115" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">2.8K</text>
+    <text x="115" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#27ae60">+8%</text>
+  </g>
+  
+  <!-- Progress Indicators -->
+  <g transform="translate(50, 160)">
+    <rect x="0" y="0" width="120" height="60" rx="6" fill="white" fill-opacity="0.9"/>
+    
+    <!-- Progress Bars -->
+    <rect x="15" y="15" width="90" height="4" rx="2" fill="#ecf0f1"/>
+    <rect x="15" y="15" width="72" height="4" rx="2" fill="#2ecc71"/>
+    <text x="15" y="12" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Performance</text>
+    
+    <rect x="15" y="30" width="90" height="4" rx="2" fill="#ecf0f1"/>
+    <rect x="15" y="30" width="81" height="4" rx="2" fill="#3498db"/>
+    <text x="15" y="27" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Uptime</text>
+    
+    <rect x="15" y="45" width="90" height="4" rx="2" fill="#ecf0f1"/>
+    <rect x="15" y="45" width="68" height="4" rx="2" fill="#e74c3c"/>
+    <text x="15" y="42" font-family="Arial, sans-serif" font-size="8" fill="#7f8c8d">Satisfaction</text>
+  </g>
+  
+  <!-- Pie Chart -->
+  <g transform="translate(270, 190)">
+    <circle cx="0" cy="0" r="35" fill="white" fill-opacity="0.9"/>
+    
+    <!-- Pie Slices -->
+    <path d="M 0 -25 A 25 25 0 0 1 17.68 -17.68 L 0 0 Z" fill="#3498db"/>
+    <path d="M 17.68 -17.68 A 25 25 0 0 1 25 0 L 0 0 Z" fill="#e74c3c"/>
+    <path d="M 25 0 A 25 25 0 0 1 0 25 L 0 0 Z" fill="#2ecc71"/>
+    <path d="M 0 25 A 25 25 0 1 1 0 -25 L 0 0 Z" fill="#f39c12"/>
+    
+    <!-- Center -->
+    <circle cx="0" cy="0" r="12" fill="white"/>
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">📊</text>
+  </g>
+  
+  <!-- Floating Icons -->
+  <g opacity="0.3">
+    <text x="350" y="50" font-family="Arial, sans-serif" font-size="16" fill="white">⚡</text>
+    <text x="30" y="280" font-family="Arial, sans-serif" font-size="14" fill="white">🎯</text>
+    <text x="320" y="270" font-family="Arial, sans-serif" font-size="12" fill="white">📈</text>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+    Dashboard
+  </text>
+</svg>

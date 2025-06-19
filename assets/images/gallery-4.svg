@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="gallery4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#89f7fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66a6ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="600" height="400" fill="url(#gallery4)"/>
+  
+  <!-- Hexagon pattern -->
+  <g fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1">
+    <polygon points="150,100 130,130 150,160 190,160 210,130 190,100"/>
+    <polygon points="300,80 280,110 300,140 340,140 360,110 340,80"/>
+    <polygon points="450,120 430,150 450,180 490,180 510,150 490,120"/>
+    <polygon points="100,240 80,270 100,300 140,300 160,270 140,240"/>
+    <polygon points="350,220 330,250 350,280 390,280 410,250 390,220"/>
+  </g>
+  
+  <rect x="50" y="320" width="500" height="60" rx="8" fill="rgba(255,255,255,0.9)"/>
+  <text x="300" y="345" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Gallery Image 4</text>
+  <text x="300" y="365" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Hexagonal patterns</text>
+</svg>

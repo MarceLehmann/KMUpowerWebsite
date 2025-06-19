@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bootstrapTeaserGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7952b3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d6efd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bootstrapTeaserGradient)"/>
+  
+  <!-- Bootstrap Logo -->
+  <g transform="translate(150, 80)">
+    <rect x="0" y="0" width="100" height="120" rx="8" fill="white"/>
+    <path d="M15 25 L65 25 Q80 25 80 40 Q80 55 72 60 Q85 65 85 80 Q85 95 65 95 L15 95 Z M30 40 L30 80 L60 80 Q70 80 70 72 Q70 65 60 65 L40 65 L40 55 L55 55 Q65 55 65 47 Q65 40 55 40 Z" fill="#7952b3"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="white" text-anchor="middle">
+    Bootstrap 5
+  </text>
+  <text x="200" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="400" fill="rgba(255,255,255,0.8)" text-anchor="middle">
+    Mobile-First Framework
+  </text>
+  
+  <!-- Grid dots -->
+  <g transform="translate(50, 250)">
+    <circle cx="0" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="25" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="50" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="75" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="100" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="125" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="150" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="175" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="200" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="225" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="250" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="275" cy="0" r="4" fill="rgba(255,255,255,0.4)"/>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+  <defs>
+    <linearGradient id="teaserBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#teaserBg)"/>
+  <rect width="800" height="400" fill="url(#grid)"/>
+  
+  <!-- Main title -->
+  <text x="400" y="180" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">
+    Jekyll Showcase
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="rgba(255,255,255,0.8)">
+    Vollständige Übersicht aller visuellen Elemente
+  </text>
+  
+  <!-- Decorative shapes -->
+  <circle cx="150" cy="100" r="25" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="650" cy="300" r="30" fill="rgba(255,255,255,0.1)"/>
+  <rect x="70" y="280" width="40" height="40" rx="8" fill="rgba(255,255,255,0.12)"/>
+  <polygon points="700,80 720,120 740,80 720,40" fill="rgba(255,255,255,0.08)"/>
+  
+  <!-- Feature icons -->
+  <g transform="translate(100, 320)">
+    <rect width="60" height="8" rx="4" fill="rgba(255,255,255,0.3)"/>
+    <rect y="15" width="45" height="8" rx="4" fill="rgba(255,255,255,0.25)"/>
+    <rect y="30" width="55" height="8" rx="4" fill="rgba(255,255,255,0.2)"/>
+  </g>
+  
+  <g transform="translate(640, 320)">
+    <rect width="60" height="8" rx="4" fill="rgba(255,255,255,0.3)"/>
+    <rect y="15" width="50" height="8" rx="4" fill="rgba(255,255,255,0.25)"/>
+    <rect y="30" width="40" height="8" rx="4" fill="rgba(255,255,255,0.2)"/>
+  </g>
+</svg>
