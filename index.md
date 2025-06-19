@@ -86,6 +86,24 @@ Diese Demonstrationsseite zeigt dir **alle verfügbaren visuellen Elemente** des
 - 📝 **Content-Creators** die ihre Optionen erkunden wollen
 - 🔧 **Theme-Customizer** die Anpassungsmöglichkeiten suchen
 
+## 🎨 Design System Showcases
+
+Entdecke verschiedene moderne Design-Systeme und UI-Frameworks, die mit Jekyll Minimal Mistakes umgesetzt wurden:
+
+### Populäre UI-Frameworks
+- **[Microsoft Fluent Design](/fluent-design/)** - Modernes Design System von Microsoft mit Fluent UI Komponenten
+- **[Tailwind CSS Demo](/tailwind-demo/)** - Utility-first CSS Framework für schnelle und flexible Designs
+- **[Material Design](/material-design/)** - Googles Design Language mit charakteristischen Elementen
+- **[Bootstrap Demo](/bootstrap-demo/)** - Das beliebteste CSS Framework für responsive Websites
+
+### Web-Standards & Specialized Frameworks
+- **[CSS Grid & Flexbox](/css-grid-flexbox/)** - Moderne Layout-Techniken für responsive Designs
+- **[Ant Design](/ant-design/)** - Enterprise-Class UI Design Language und React Components
+- **[IBM Carbon Design](/carbon-design/)** - Open-Source Design System für digitale Produkte und Erlebnisse
+
+{: .notice--primary}
+**Hinweis:** Alle Showcases demonstrieren, wie verschiedene Design-Systeme und UI-Frameworks mit Jekyll Minimal Mistakes kombiniert werden können.
+
 {% include feature_row %}
 
 {% include feature_row id="feature_row2" type="left" %}
