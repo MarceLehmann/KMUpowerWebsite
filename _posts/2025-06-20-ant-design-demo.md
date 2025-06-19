@@ -8,4 +8,4 @@ layout: single
 excerpt: "Komplette Ant Design Demo als Blogpost."
 ---
 
-{% include_relative ../_pages/ant-design.md %}
+{% include ant-design.md %}
