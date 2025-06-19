@@ -91,15 +91,15 @@ Diese Demonstrationsseite zeigt dir **alle verfügbaren visuellen Elemente** des
 Entdecke verschiedene moderne Design-Systeme und UI-Frameworks, die mit Jekyll Minimal Mistakes umgesetzt wurden:
 
 ### Populäre UI-Frameworks
-- **[Microsoft Fluent Design](/fluent-design/)** - Modernes Design System von Microsoft mit Fluent UI Komponenten
-- **[Tailwind CSS Demo](/tailwind-demo/)** - Utility-first CSS Framework für schnelle und flexible Designs
-- **[Material Design](/material-design/)** - Googles Design Language mit charakteristischen Elementen
-- **[Bootstrap Demo](/bootstrap-demo/)** - Das beliebteste CSS Framework für responsive Websites
+- **[Microsoft Fluent Design](https://marcelehmann.github.io/GitHubPagesSample/fluent-design/)** - Modernes Design System von Microsoft mit Fluent UI Komponenten
+- **[Tailwind CSS Demo](https://marcelehmann.github.io/GitHubPagesSample/tailwind-demo/)** - Utility-first CSS Framework für schnelle und flexible Designs
+- **[Material Design](https://marcelehmann.github.io/GitHubPagesSample/material-design/)** - Googles Design Language mit charakteristischen Elementen
+- **[Bootstrap Demo](https://marcelehmann.github.io/GitHubPagesSample/bootstrap-demo/)** - Das beliebteste CSS Framework für responsive Websites
 
 ### Web-Standards & Specialized Frameworks
-- **[CSS Grid & Flexbox](/css-grid-flexbox/)** - Moderne Layout-Techniken für responsive Designs
-- **[Ant Design](/ant-design/)** - Enterprise-Class UI Design Language und React Components
-- **[IBM Carbon Design](/carbon-design/)** - Open-Source Design System für digitale Produkte und Erlebnisse
+- **[CSS Grid & Flexbox](https://marcelehmann.github.io/GitHubPagesSample/css-grid-flexbox/)** - Moderne Layout-Techniken für responsive Designs
+- **[Ant Design](https://marcelehmann.github.io/GitHubPagesSample/ant-design/)** - Enterprise-Class UI Design Language und React Components
+- **[IBM Carbon Design](https://marcelehmann.github.io/GitHubPagesSample/carbon-design/)** - Open-Source Design System für digitale Produkte und Erlebnisse
 
 {: .notice--primary}
 **Hinweis:** Alle Showcases demonstrieren, wie verschiedene Design-Systeme und UI-Frameworks mit Jekyll Minimal Mistakes kombiniert werden können.
