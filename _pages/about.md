@@ -8,8 +8,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/about-header.svg
 classes: wide
-sidebar:
-  nav: false
+toc: false
 ---
 
 ## Was ist diese Showcase?
