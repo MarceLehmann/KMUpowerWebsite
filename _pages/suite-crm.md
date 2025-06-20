@@ -3,8 +3,10 @@ title: "CRM Modul – Kundenbeziehungen professionell verwalten"
 permalink: /suite/crm/
 layout: single
 header:
-  image: /assets/images/crm-header.svg
-  teaser: /assets/images/crm-teaser.svg
+  image: /assets/images/suite-header.svg
+  teaser: /assets/images/suite-teaser.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 toc: true
 toc_sticky: true
 author_profile: false

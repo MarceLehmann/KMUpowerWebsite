@@ -3,8 +3,10 @@ title: "Dienstleistungen – Maßgeschneiderte Power Platform Lösungen"
 permalink: /dienstleistungen/
 layout: single
 header:
-  image: /assets/images/services-header.svg
+  image: /assets/images/services-teaser.svg
   teaser: /assets/images/services-teaser.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 toc: true
 toc_sticky: true
 author_profile: false
@@ -236,3 +238,27 @@ Erfahren Sie mehr über unsere Spezialgebiete:
 - **[Power Apps Entwicklung](/dienstleistungen/powerapps/)** – Von der Idee zur App
 - **[Power Automate Workflows](/dienstleistungen/powerautomate/)** – Automatisierung die funktioniert
 - **[KI-Integration](/dienstleistungen/ki-integration/)** – Künstliche Intelligenz für KMUs
+
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
+
+## Unsere Leistungen
+
+<div class="card-grid" style="display:flex; gap:2rem; flex-wrap:wrap; margin-bottom:2rem;">
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-pragmatic.svg" alt="Power Apps" style="height:48px; margin-bottom:1rem;" />
+    <strong>Power Apps Entwicklung</strong><br>
+    Individuelle Apps für Ihre Geschäftsprozesse.
+  </div>
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-flexible.svg" alt="Power Automate" style="height:48px; margin-bottom:1rem;" />
+    <strong>Power Automate Workflows</strong><br>
+    Automatisierung von Routineaufgaben und Prozessen.
+  </div>
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-learning.svg" alt="Beratung" style="height:48px; margin-bottom:1rem;" />
+    <strong>Beratung & Support</strong><br>
+    Von der Idee bis zum Betrieb – wir begleiten Sie.
+  </div>
+</div>

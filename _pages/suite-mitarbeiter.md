@@ -3,8 +3,10 @@ title: "Mitarbeiter Modul – Moderne Personalverwaltung für KMUs"
 permalink: /suite/mitarbeiter/
 layout: single
 header:
-  image: /assets/images/employee-header.svg
-  teaser: /assets/images/employee-teaser.svg
+  image: /assets/images/suite-header.svg
+  teaser: /assets/images/suite-teaser.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 toc: true
 toc_sticky: true
 author_profile: false
@@ -181,7 +183,7 @@ Schnell wachsendes Team, chaotisches Onboarding, keine Übersicht über Mitarbei
 
 ### 📋 **Audit-Sicherheit**
 - **Alle Änderungen** werden protokolliert
-- **Wer hat wann was geändert** nachverfolgbar
+- **Wer hat wann was geändert** nachverfolgbarkeit
 - **Compliance-Reports** für Behörden
 - **Backup-Strategien** für kritische HR-Daten
 

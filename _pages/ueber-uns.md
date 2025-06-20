@@ -5,10 +5,16 @@ layout: single
 header:
   image: /assets/images/about-header.svg
   teaser: /assets/images/about-teaser.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 toc: true
 toc_sticky: true
 author_profile: false
 ---
+
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
 
 ## Von ThePowerAddicts zu KMUpower – Unsere Reise
 
@@ -16,39 +22,55 @@ author_profile: false
 
 **KMUpower** ist mehr als nur ein neuer Name – es ist unser Bekenntnis, kleine und mittelständische Unternehmen im **DACH-Raum** zu digitalen Marktführern zu machen.
 
-{: .notice--info}
-**Warum der Wandel?** Wir haben erkannt, dass KMUs spezielle Bedürfnisse haben: transparente Preise, pragmatische Lösungen und schnelle Erfolge. Darauf konzentrieren wir uns jetzt vollständig.
+<div class="notice--info" style="background:rgba(0,114,198,0.07); border-left:4px solid #0072C6;">
+<strong>Warum der Wandel?</strong> Wir haben erkannt, dass KMUs spezielle Bedürfnisse haben: transparente Preise, pragmatische Lösungen und schnelle Erfolge. Darauf konzentrieren wir uns jetzt vollständig.
+</div>
+
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
 
 ## Unsere Mission & Vision
 
-### 🎯 **Mission**
+<div class="card" style="background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:2rem; margin-bottom:2rem;">
+### 🎯 Mission
 > Wir ermächtigen kleine und mittelständische Unternehmen durch digitale Exzellenz.
 
 KMUpower macht fortschrittliche Digitalisierungslösungen für KMUs zugänglich, nutzbar und wirtschaftlich – und verwandelt damit technologische Komplexität in geschäftlichen Mehrwert.
+</div>
 
-### 🚀 **Vision**
+<div class="card" style="background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:2rem; margin-bottom:2rem;">
+### 🚀 Vision
 > Die führende Kraft für intelligente Digitalisierung im DACH-KMU-Sektor sein.
 
 Wir gestalten eine Zukunft, in der jedes KMU über die digitalen Werkzeuge verfügt, um global wettbewerbsfähig zu bleiben.
+</div>
 
 ## Unsere Werte
 
-### 💡 **Expertise mit Bodenständigkeit**
-Wir vereinen tiefgreifendes technisches Know-how mit dem praktischen Verständnis für die realen Geschäftsanforderungen von KMUs.
+<div class="card-grid" style="display:flex; gap:2rem; flex-wrap:wrap; margin-bottom:2rem;">
+  <div class="card" style="flex:1 1 220px; background:#f7fafd; box-shadow:0 2px 12px rgba(0,0,0,0.03); padding:1.5rem;">
+    <img src="/assets/images/benefit-learning.svg" alt="Expertise" style="height:48px; margin-bottom:1rem;" />
+    <strong>Expertise mit Bodenständigkeit</strong><br>
+    Tiefgreifendes technisches Know-how und praktisches Verständnis für KMUs.
+  </div>
+  <div class="card" style="flex:1 1 220px; background:#f7fafd; box-shadow:0 2px 12px rgba(0,0,0,0.03); padding:1.5rem;">
+    <img src="/assets/images/benefit-flexible.svg" alt="Wertorientierung" style="height:48px; margin-bottom:1rem;" />
+    <strong>Wertorientierung</strong><br>
+    Jede Lösung liefert messbaren Geschäftswert und ROI.
+  </div>
+  <div class="card" style="flex:1 1 220px; background:#f7fafd; box-shadow:0 2px 12px rgba(0,0,0,0.03); padding:1.5rem;">
+    <img src="/assets/images/benefit-health.svg" alt="Vertrauen" style="height:48px; margin-bottom:1rem;" />
+    <strong>Vertrauen & Partnerschaft</strong><br>
+    Langfristige Zusammenarbeit auf Augenhöhe.
+  </div>
+</div>
 
-### 💰 **Wertorientierung**
-Jede unserer Lösungen muss einen messbaren Geschäftswert liefern. Wir orientieren uns am Return on Investment.
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
 
-### ⚡ **Pragmatischer Fortschritt**
-Wir bevorzugen realistische, schnell umsetzbare Lösungen gegenüber theoretisch perfekten, aber unpraktischen Ansätzen.
-
-### 🏆 **Durchgängige Exzellenz**
-Von der ersten Beratung bis zur fortlaufenden Betreuung – wir streben in jeder Phase nach herausragender Qualität.
-
-### 🤝 **Partnerschaftliche Zusammenarbeit**
-Wir verstehen uns als langfristigen Digitalisierungspartner, nicht als einmaligen Dienstleister.
-
-## Unser Team
+## Unser Team & Netzwerk
 
 ### Marcel Lehmann – Gründer & CEO
 

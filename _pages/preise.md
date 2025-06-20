@@ -5,57 +5,55 @@ layout: single
 header:
   image: /assets/images/pricing-header.svg
   teaser: /assets/images/pricing-teaser.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 toc: true
 toc_sticky: true
 author_profile: false
 ---
 
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
+
 ## Faire Preise, die in jedes KMU-Budget passen
 
 Bei KMUpower gibt es **keine versteckten Kosten** und keine bösen Überraschungen. Unsere Preismodelle sind speziell für kleine und mittelständische Unternehmen entwickelt und bieten maximale Transparenz und Planbarkeit.
 
-{: .notice--primary}
-**Preisgarantie:** Alle genannten Preise sind Festpreise ohne versteckte Zusatzkosten. Support-Pakete sind optional.
+<div class="notice--primary" style="background:rgba(0,114,198,0.07); border-left:4px solid #0072C6;">
+<strong>Preisgarantie:</strong> Alle genannten Preise sind Festpreise ohne versteckte Zusatzkosten. Support-Pakete sind optional.
+</div>
+
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
 
 ## KMUpower Suite – Vorkonfigurierte Module
 
-### 💎 **Einzelmodul**
-**CHF 1'000** einmalig
+<div class="card-grid" style="display:flex; gap:2rem; flex-wrap:wrap; margin-bottom:2rem;">
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-flexible.svg" alt="Einzelmodul" style="height:48px; margin-bottom:1rem;" />
+    <strong>Einzelmodul</strong><br>
+    <span style="font-size:1.3em; color:#0072C6; font-weight:bold;">CHF 1'000</span> einmalig<br>
+    1 Modul nach Wahl, Grundeinrichtung, Datenimport, Schulung, Support.
+  </div>
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-pragmatic.svg" alt="Kernpaket" style="height:48px; margin-bottom:1rem;" />
+    <strong>Kernpaket (Empfohlen)</strong><br>
+    <span style="font-size:1.3em; color:#0072C6; font-weight:bold;">CHF 2'222</span> einmalig<br>
+    Alle 3 Kernmodule, Integration, Datenimport, Schulung, Support, CI-Anpassung.
+  </div>
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-health.svg" alt="Komplett-Paket" style="height:48px; margin-bottom:1rem;" />
+    <strong>Komplett-Paket</strong><br>
+    <span style="font-size:1.3em; color:#0072C6; font-weight:bold;">CHF 7'500</span> einmalig<br>
+    Alle Module, individuelle Anpassungen, Onboarding, Premium-Support.
+  </div>
+</div>
 
-**Was ist enthalten:**
-- 1 Modul nach Wahl (CRM, Newsletter oder Mitarbeiter)
-- Grundeinrichtung und Konfiguration
-- Import bestehender Daten (bis 1'000 Datensätze)
-- 4 Stunden Anwenderschulung
-- 1 Monat kostenloser E-Mail-Support
-
-**Ideal für:** Unternehmen, die erst einmal testen möchten
-
-### 🎯 **Kernpaket (Empfohlen)**
-**CHF 2'222** einmalig
-
-**Was ist enthalten:**
-- **Alle 3 Kernmodule:** CRM + Newsletter + Mitarbeiterverwaltung
-- Vollständige Einrichtung mit Integration
-- Datenimport aus bestehenden Systemen
-- 8 Stunden Anwenderschulung (vor Ort oder Online)
-- 2 Monate kostenloser Support
-- Anpassung an Corporate Design
-
-**Ideal für:** Die meisten KMUs für den kompletten Start
-
-### 🚀 **Komplett-Paket**
-**CHF 7'500** einmalig
-
-**Was ist enthalten:**
-- **Alle Kernmodule + 4 Add-ons** nach Wahl
-- Premium-Einrichtung mit individuellen Anpassungen
-- Erweiterte Automatisierungen und Workflows
-- 20 Stunden Schulung und Change Management
-- 3 Monate Premium-Support
-- Power BI Dashboards inklusive
-
-**Ideal für:** Größere KMUs mit komplexeren Anforderungen
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
 
 ## Maßgeschneiderte Entwicklung
 

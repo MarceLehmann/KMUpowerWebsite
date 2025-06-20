@@ -2,8 +2,9 @@
 title: "Careers & Jobs"
 permalink: /careers/
 header:
-  image: /assets/images/careers-header.svg
-  teaser: /assets/images/careers-teaser.svg
+  teaser: /assets/images/careers-header.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 excerpt: "Join our team and build your career with us"
 feature_row_jobs:
   - image_path: /assets/images/job-developer.svg
@@ -113,6 +114,16 @@ Competitive salary, equity, and comprehensive benefits package.
 4. Highlight your unique experiences and perspectives
 
 ---
+
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
+
+<div class="card" style="background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:2rem; margin-bottom:2rem;">
+  <img src="/assets/images/benefit-learning.svg" alt="Karriere" style="height:48px; margin-bottom:1rem;" />
+  <strong>Karriere bei KMUpower</strong><br>
+  Werde Teil unseres Teams und gestalte die Digitalisierung im Mittelstand mit!
+</div>
 
 ## Apply Now
 

@@ -5,37 +5,57 @@ layout: single
 header:
   image: /assets/images/suite-header.svg
   teaser: /assets/images/suite-teaser.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 toc: true
 toc_sticky: true
 author_profile: false
 ---
 
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
+
 ## Die intelligente Alternative zu teueren ERP-Systemen
 
 Die **KMUpower Suite** ist eine modulare Business-Plattform auf Basis von Microsoft 365 und der Power Platform. Speziell für Schweizer KMUs entwickelt, die ihre Geschäftsprozesse zentralisieren, automatisieren und skalierbar ausbauen wollen – **ohne zusätzliche Server-Infrastruktur**.
 
-{: .notice--primary}
-**Sofort einsatzbereit:** Erste Module sind bereits nach **4 Wochen** produktiv nutzbar. Durch den Baukastenansatz wächst die Lösung mit Ihrem Unternehmen mit.
+<div class="notice--primary" style="background:rgba(0,114,198,0.07); border-left:4px solid #0072C6;">
+<strong>Sofort einsatzbereit:</strong> Erste Module sind bereits nach <strong>4 Wochen</strong> produktiv nutzbar. Durch den Baukastenansatz wächst die Lösung mit Ihrem Unternehmen mit.
+</div>
+
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
 
 ## Warum KMUpower Suite?
 
-### 💡 **Bewährte Konzepte statt Neuentwicklung**
-Basierend auf **100+ KMU-Projekten** haben wir die häufigsten Anforderungen in vorkonfigurierten Modulen zusammengefasst.
+<div class="card-grid" style="display:flex; gap:2rem; flex-wrap:wrap; margin-bottom:2rem;">
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-learning.svg" alt="Bewährte Konzepte" style="height:48px; margin-bottom:1rem;" />
+    <strong>Bewährte Konzepte</strong><br>
+    Über 100+ KMU-Projekte als Basis für die Module.
+  </div>
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-flexible.svg" alt="Schnelle Implementierung" style="height:48px; margin-bottom:1rem;" />
+    <strong>Schnelle Implementierung</strong><br>
+    Plug & Play, keine IT-Infrastruktur nötig, 4 Wochen bis Go-Live.
+  </div>
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-health.svg" alt="Kosteneffizient" style="height:48px; margin-bottom:1rem;" />
+    <strong>Kosteneffizient</strong><br>
+    Einmalkosten, Nutzung vorhandener M365-Lizenzen, schneller ROI.
+  </div>
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-pragmatic.svg" alt="Flexibel erweiterbar" style="height:48px; margin-bottom:1rem;" />
+    <strong>Flexibel erweiterbar</strong><br>
+    Modular, individuell anpassbar, wächst mit Ihrem Unternehmen.
+  </div>
+</div>
 
-### 🚀 **Schnelle Implementierung**
-- **Plug & Play** – Module sind sofort einsatzbereit
-- **4 Wochen** bis zur Produktivsetzung
-- **Keine IT-Infrastruktur** erforderlich
-
-### 💰 **Kosteneffizient**
-- **Einmalkosten** statt monatliche Lizenzgebühren
-- Nutzt Ihre **vorhandenen M365-Lizenzen**
-- **ROI bereits nach 6 Monaten**
-
-### 🔧 **Flexibel erweiterbar**
-- **Modularer Aufbau** – kaufen Sie nur was Sie brauchen
-- **Individuelle Anpassungen** jederzeit möglich
-- **Skaliert von 5 bis 250 Mitarbeitern**
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
 
 ## Die Module im Überblick
 

@@ -6,12 +6,26 @@ author_profile: false
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/terms-teaser.svg
+  teaser: /assets/images/legal-teaser.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 ---
 
 ## Allgemeine Geschäftsbedingungen der KMUpower
 
 **Stand:** Juni 2025
+
+---
+
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
+
+<div class="card" style="background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:2rem; margin-bottom:2rem;">
+  <img src="/assets/images/benefit-flexible.svg" alt="AGB" style="height:48px; margin-bottom:1rem;" />
+  <strong>Allgemeine Geschäftsbedingungen</strong><br>
+  Es gelten die AGB der KMUpower, Stand Juni 2025.
+</div>
 
 ---
 

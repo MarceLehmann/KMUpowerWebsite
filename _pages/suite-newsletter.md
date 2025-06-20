@@ -3,8 +3,10 @@ title: "Newsletter Modul – Professionelles E-Mail-Marketing für KMUs"
 permalink: /suite/newsletter/
 layout: single
 header:
-  image: /assets/images/newsletter-header.svg
-  teaser: /assets/images/newsletter-teaser.svg
+  image: /assets/images/suite-header.svg
+  teaser: /assets/images/suite-teaser.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 toc: true
 toc_sticky: true
 author_profile: false

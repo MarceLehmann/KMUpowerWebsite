@@ -4,8 +4,9 @@ title: "Kundenstimmen & Bewertungen"
 permalink: /testimonials/
 excerpt: "Erfahren Sie, was unsere Kunden über unsere Dienstleistungen sagen. Echte Bewertungen und Erfolgsgeschichten."
 header:
-  image: /assets/images/testimonials-header.svg
-  teaser: /assets/images/testimonials-teaser.svg
+  teaser: /assets/images/testimonials-header.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 sidebar:
   nav: "main"
 toc: true
@@ -64,6 +65,10 @@ toc_sticky: true
         </div>
       </div>
     </div>
+  </div>
+
+  <div style="margin: 2rem 0; text-align:center;">
+    <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
   </div>
 
   <!-- Featured Testimonials Carousel -->

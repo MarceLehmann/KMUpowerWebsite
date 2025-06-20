@@ -5,7 +5,23 @@ layout: single
 author_profile: false
 header:
   teaser: /assets/images/legal-teaser.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 ---
+
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
+
+<div class="card" style="background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:2rem; margin-bottom:2rem;">
+  <img src="/assets/images/benefit-flexible.svg" alt="Impressum" style="height:48px; margin-bottom:1rem;" />
+  <strong>KMUpower</strong><br>
+  Marcel Lehmann<br>
+  Einzelfirma nach Schweizer Recht<br>
+  Musterstrasse 123, 8001 Zürich<br>
+  Schweiz<br>
+  info@kmupower.ch
+</div>
 
 ## Angaben gemäß Schweizer Recht
 

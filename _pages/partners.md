@@ -2,8 +2,9 @@
 title: "Partners & Clients"
 permalink: /partners/
 header:
-  image: /assets/images/partners-header.svg
-  teaser: /assets/images/partners-teaser.svg
+  teaser: /assets/images/partners-header.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 excerpt: "Trusted by leading companies worldwide"
 feature_row_partners:
   - image_path: /assets/images/partner-tech.svg

@@ -4,224 +4,122 @@ layout: posts
 permalink: /blog/
 author_profile: false
 header:
-  overlay_color: "#0072C6"
-  overlay_filter: "0.4"
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
   overlay_image: /assets/images/blog-header.svg
   caption: "Praktisches Know-how für Ihre Digitalisierung"
   actions:
     - label: "Newsletter abonnieren"
       url: "/newsletter-anmeldung/"
-      class: "btn--primary"
+      class: "btn--outline"
 excerpt: "Praxisnahe Tipps, Erfolgsgeschichten und Trends rund um die Digitalisierung kleiner und mittelständischer Unternehmen."
 entries_layout: grid
 classes: wide
 ---
 
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
+
 ## Praktisches Know-how für Ihre Digitalisierung
 
 Willkommen im **KMUpower Blog** – Ihrer Quelle für praxisnahe Tipps, Erfolgsgeschichten und Trends rund um die Digitalisierung kleiner und mittelständischer Unternehmen. Profitieren Sie von unserer Expertise und den Erfahrungen anderer KMUs.
 
-{: .notice--primary}
-**Regelmäßig neue Inhalte:** Jeden Dienstag erscheint ein neuer Artikel mit praktischen Tipps für KMU-Entscheider.
+<div class="notice--primary" style="background:rgba(0,114,198,0.07); border-left:4px solid #0072C6;">
+<strong>Regelmäßig neue Inhalte:</strong> Jeden Dienstag erscheint ein neuer Artikel mit praktischen Tipps für KMU-Entscheider.
+</div>
+
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
 
 ## Unsere Blog-Kategorien
 
-### 🎯 **Digitaler Reifegrad**
-- Digitalisierung-Assessments für KMUs
-- Benchmarking und Best Practices
-- Roadmap-Entwicklung für die digitale Transformation
-- Change Management in kleinen Unternehmen
-
-### ⚡ **Power Platform Tipps**
-- Power Apps Entwicklungs-Tutorials
-- Power Automate Workflow-Beispiele
-- Integration-Lösungen für häufige Szenarien
-- Performance-Optimierung und Best Practices
-
-### 🤖 **Automatisierung für KMUs**
-- Prozessidentifikation und -priorisierung
-- ROI-Berechnung für Automatisierungsprojekte
-- Erfolgsgeschichten aus der Praxis
-- Fallstricke und wie man sie vermeidet
-
-### 📊 **Praxisbeispiele**
-- Detaillierte Case Studies
-- Vor-/Nachher-Vergleiche mit konkreten Zahlen
-- Branchen-spezifische Lösungsansätze
-- Lessons Learned aus realen Projekten
-
-### 💡 **KI für KMUs**
-- KI-Anwendungen im KMU-Alltag
-- Azure OpenAI und Copilot Integration
-- Praktische KI-Use-Cases
-- Datenschutz und Ethik bei KI-Nutzung
-  <h2>Welcome to Our Blog</h2>
-  <p>Discover the latest insights, product updates, and industry news from our team. We share valuable content about web development, design trends, and technology innovations.</p>
-</div>
-
-<div class="blog-categories">
-  <h3>Categories</h3>
-  <div class="category-grid">
-    <a href="/categories/#development" class="category-card">
-      <span class="category-icon">💻</span>
-      <span class="category-name">Development</span>
-      <span class="category-count">{{ site.categories['development'].size | default: 0 }}</span>
-    </a>
-    <a href="/categories/#design" class="category-card">
-      <span class="category-icon">🎨</span>
-      <span class="category-name">Design</span>
-      <span class="category-count">{{ site.categories['design'].size | default: 0 }}</span>
-    </a>
-    <a href="/categories/#business" class="category-card">
-      <span class="category-icon">📈</span>
-      <span class="category-name">Business</span>
-      <span class="category-count">{{ site.categories['business'].size | default: 0 }}</span>
-    </a>
-    <a href="/categories/#technology" class="category-card">
-      <span class="category-icon">⚡</span>
-      <span class="category-name">Technology</span>
-      <span class="category-count">{{ site.categories['technology'].size | default: 0 }}</span>
-    </a>
+<div class="card-grid" style="display:flex; gap:2rem; flex-wrap:wrap; margin-bottom:2rem;">
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-learning.svg" alt="Digitaler Reifegrad" style="height:48px; margin-bottom:1rem;" />
+    <strong>Digitaler Reifegrad</strong><br>
+    Assessments, Benchmarking, Roadmaps, Change Management
+  </div>
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-pragmatic.svg" alt="Power Platform Tipps" style="height:48px; margin-bottom:1rem;" />
+    <strong>Power Platform Tipps</strong><br>
+    Power Apps, Power Automate, Integration, Performance
+  </div>
+  <div class="card" style="flex:1 1 220px; background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:1.5rem;">
+    <img src="/assets/images/benefit-flexible.svg" alt="Praxisbeispiele" style="height:48px; margin-bottom:1rem;" />
+    <strong>Praxisbeispiele</strong><br>
+    Success Stories, Use Cases, ROI-Beispiele
   </div>
 </div>
 
-<div class="newsletter-signup" id="newsletter">
-  <div class="newsletter-card">
-    <h3>Subscribe to Our Newsletter</h3>
-    <p>Get the latest posts delivered directly to your inbox.</p>
-    <form class="newsletter-form" action="#" method="post">
-      <div class="form-group">
-        <input type="email" name="email" placeholder="Your email address" required>
-        <button type="submit" class="btn btn--primary">Subscribe</button>
-      </div>
-      <p class="newsletter-note">We respect your privacy. Unsubscribe at any time.</p>
-    </form>
-  </div>
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
 </div>
+
+## Aktuelle Blogartikel
+
+{% for post in site.posts limit:6 %}
+  <div class="card" style="background:#f7fafd; box-shadow:0 2px 12px rgba(0,0,0,0.03); padding:1.5rem; margin-bottom:2rem;">
+    {% include archive-single.html %}
+  </div>
+{% endfor %}
+
+**[Alle Artikel lesen](/blog/){: .btn .btn--outline}**
 
 <style>
-.blog-intro {
-  text-align: center;
-  margin: 2rem 0 3rem;
-  padding: 2rem;
-  background: var(--background-color);
-  border-radius: 8px;
-  border: 1px solid var(--border-color);
-}
-
-.blog-categories {
-  margin: 3rem 0;
-}
-
-.category-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.category-card {
+.card-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.card {
+  flex: 1 1 220px;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
   padding: 1.5rem;
-  background: var(--background-color);
-  border: 1px solid var(--border-color);
   border-radius: 8px;
-  text-decoration: none;
-  color: var(--text-color);
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
-.category-card:hover {
+.card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  text-decoration: none;
-  color: var(--link-color);
 }
 
-.category-icon {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-.category-name {
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-}
-
-.category-count {
-  font-size: 0.875rem;
-  color: var(--muted-text-color);
-}
-
-.newsletter-signup {
-  margin: 4rem 0;
-  text-align: center;
-}
-
-.newsletter-card {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 2rem;
-  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-dark));
-  color: white;
-  border-radius: 12px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
-}
-
-.newsletter-card h3 {
-  margin-bottom: 0.5rem;
-  color: white;
-}
-
-.newsletter-card p {
-  margin-bottom: 1.5rem;
-  opacity: 0.9;
-}
-
-.newsletter-form .form-group {
-  display: flex;
-  gap: 0.5rem;
+.card img {
+  height: 48px;
   margin-bottom: 1rem;
 }
 
-.newsletter-form input {
-  flex: 1;
-  padding: 0.75rem;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
+.notice--primary {
+  background: rgba(0, 114, 198, 0.07);
+  border-left: 4px solid #0072C6;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 4px;
 }
 
-.newsletter-form button {
+.btn--outline {
+  display: inline-block;
   padding: 0.75rem 1.5rem;
-  border: none;
+  border: 2px solid var(--primary-color);
   border-radius: 6px;
-  background: white;
+  background: transparent;
   color: var(--primary-color);
   font-weight: 600;
-  cursor: pointer;
+  text-align: center;
   transition: all 0.3s ease;
 }
 
-.newsletter-form button:hover {
-  background: #f8f9fa;
-  transform: translateY(-1px);
-}
-
-.newsletter-note {
-  font-size: 0.875rem;
-  opacity: 0.8;
-  margin: 0;
+.btn--outline:hover {
+  background: var(--primary-color);
+  color: white;
 }
 
 @media (max-width: 600px) {
-  .newsletter-form .form-group {
-    flex-direction: column;
-  }
-  
-  .category-grid {
+  .card-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }

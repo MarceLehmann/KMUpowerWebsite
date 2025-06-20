@@ -4,8 +4,9 @@ title: "Häufig gestellte Fragen (FAQ)"
 permalink: /faq/
 excerpt: "Finden Sie schnell Antworten auf die häufigsten Fragen zu unseren Produkten und Dienstleistungen."
 header:
-  image: /assets/images/faq-header.svg
-  teaser: /assets/images/faq-teaser.svg
+  teaser: /assets/images/faq-header.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
 sidebar:
   nav: "main"
 toc: true
@@ -384,6 +385,16 @@ toc_sticky: true
       </a>
     </div>
   </div>
+</div>
+
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
+
+<div class="card" style="background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:2rem; margin-bottom:2rem;">
+  <img src="/assets/images/benefit-learning.svg" alt="FAQ" style="height:48px; margin-bottom:1rem;" />
+  <strong>Häufige Fragen</strong><br>
+  Hier finden Sie Antworten auf die wichtigsten Fragen rund um KMUpower und unsere Leistungen.
 </div>
 
 <script>

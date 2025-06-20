@@ -8,9 +8,9 @@ toc_label: "Komponenten"
 sidebar:
   nav: "showcase_nav"
 header:
-  overlay_color: "#333"
-  overlay_filter: "0.4"
-  overlay_image: /assets/images/showcase-header.svg
+  teaser: /assets/images/showcase-header.svg
+  overlay_color: "#f7fafd"
+  overlay_filter: "0.7"
   caption: "Alle Minimal Mistakes Komponenten auf einen Blick"
 
 gallery:
@@ -408,3 +408,13 @@ Alle hier gezeigten Elemente können direkt kopiert und verwendet werden. Der en
 
 {: .notice--success}
 **Fertig!** Du hast jetzt eine vollständige Übersicht aller verfügbaren visuellen Elemente des Jekyll Minimal Mistakes Themes gesehen.
+
+<div style="margin: 2rem 0; text-align:center;">
+  <img src="/assets/images/example-center.svg" alt="Trenner" style="max-width:180px; opacity:0.15;" />
+</div>
+
+<div class="card" style="background:#fff; box-shadow:0 2px 12px rgba(0,0,0,0.04); padding:2rem; margin-bottom:2rem;">
+  <img src="/assets/images/benefit-pragmatic.svg" alt="Showcase" style="height:48px; margin-bottom:1rem;" />
+  <strong>Showcase</strong><br>
+  Entdecken Sie Beispiele und Demos unserer Lösungen für KMUs.
+</div>
